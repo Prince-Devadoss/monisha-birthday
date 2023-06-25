@@ -1,6 +1,6 @@
 const image = new Image();
 let count = 1;
-image.src = `/images/monisha${count}.jpeg`;
+image.src = `images/indexer.jpeg`;
 image.addEventListener('load', function(){
     const canvas = document.getElementById('canvas1');
     const ctx = canvas.getContext('2d');
